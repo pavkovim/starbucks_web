@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>StarBucks WebSite</title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="index.html"><img class="logo" src="./assets/images/logo/logo.png"></a>
+            <div class="toggle" onclick="toggleMenu();">
+
+            </div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just Coffee<br>It's <span>StarBucks</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt amet hic est itaque! Alias natus pariatur, omnis sint tempora quisquam delectus vitae magni consequatur illo obcaecati facere laboriosam reiciendis voluptate!</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="./assets/images/img1.png" class="starbucks">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li><img src="./assets/images/thumb1.png" onclick="imgSlider('./assets/images/img1.png');changeCircleColor('#017143')"></li>
+            <li><img src="./assets/images/thumb2.png" onclick="imgSlider('/assets/images/img2.png');changeCircleColor('#eb7495')"></li>
+            <li><img src="./assets/images/thumb3.png" onclick="imgSlider('/assets/images/img3.png');changeCircleColor('#d752b1')"></li>
+        </ul>
+
+        <ul class="sci">
+            <li><a href="#"><img src="./assets/images/social/facebook.png"></a></li>
+            <li><a href="#"><img src="./assets/images/social/twitter.png"></a></li>
+            <li><a href="#"><img src="./assets/images/social/instagram.png"></a></li>
+        </ul>
+
+    </section>
+</body>
+
+<script src="./assets/js/main.js"></script>
+</html>
